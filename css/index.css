@@ -16,6 +16,8 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
 
     background: var(--lightGray);
     font-size: var(--fontsize);
@@ -33,13 +35,13 @@ main{
     background: var(--white);
     margin: 50px auto;
     max-width: 80%;
+    max-height: 80%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 img{
     margin: 20px 0px;
     width: 90%;
-    max-height: 20%;
 }
 
 h2, p{
@@ -47,13 +49,13 @@ h2, p{
     margin: 0;
 }
 
-.textOne{
+h2{
     font-weight: var(--weight700);
 }
 
-.textTwo{
+p{
     font-weight: var(--weight400);
-    padding: 20px 0 40px 0;
+    padding: 20px 5px 40px 5px;
 }
 
 main, img{
