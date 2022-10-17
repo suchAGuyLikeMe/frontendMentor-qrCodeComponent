@@ -21,7 +21,7 @@ body{
 
     background: var(--lightGray);
     font-size: var(--fontsize);
-    font-family: var(--fontFamily) ;
+    font-family: var(--fontFamily), 'sans-sarif';
 
     display: grid;
     place-items: center;
