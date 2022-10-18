@@ -27,7 +27,7 @@ body{
     place-items: center;
 }
 
-section{
+.card{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,26 +44,26 @@ img{
     width: 90%;
 }
 
-h2, p{
+h1, p{
     text-align: center;
     margin: 0;
 }
 
-h2{
+h1{
     font-weight: var(--weight700);
 }
 
 p{
     font-weight: var(--weight400);
-    padding: 20px 5px 40px 5px;
+    margin: 15px 5px 40px 5px;
 }
 
-section, img{
+.card, img{
     border-radius: 10px;
 }
 
 @media screen and (min-width: 375px){
-    main{
+    .card{
         max-width: 335px;
         max-height: 516.5px;
     }
