@@ -1,10 +1,6 @@
 :root{
     --white: hsl(0, 0%, 100%);
     --lightGray:hsl(212, 45%, 89%);
-    --grayishBlue: hsl(220, 15%, 55%);
-    --darkBlue: hsl(218, 44%, 22%);
-    
-    @import url(https://fonts.googleapis.com/css?family=Outfit);
 
     --fontFamily: 'Outfit';
     --fontsize: 0.9375rem;
@@ -12,10 +8,13 @@
     --weight700: 700;
 }
 
-body{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
     width: 100vw;
     height: 100vh;
 
@@ -33,20 +32,19 @@ body{
     align-items: center;
     
     background: var(--white);
-    margin: 50px;
-    max-width: 80%;
-    max-height: 80%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin: 3.125rem auto;
+    max-width: 20.9375rem;
+    max-height: 32.28125rem;
+    box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.2);
 }
 
 img{
-    margin: 20px 0px;
+    margin: 1.25rem 0;
     width: 90%;
 }
 
 h1, p{
     text-align: center;
-    margin: 0;
 }
 
 h1{
@@ -55,17 +53,9 @@ h1{
 
 p{
     font-weight: var(--weight400);
-    margin: 20px 5px 40px 5px;
+    margin: 0.9375rem 0.3125rem 2.5rem 0.3125rem;
 }
 
 .card, img{
-    border-radius: 10px;
+    border-radius: 1rem;
 }
-
-@media screen and (min-width: 375px){
-    .card{
-        max-width: 335px;
-        max-height: 516.5px;
-    }
-}
-
